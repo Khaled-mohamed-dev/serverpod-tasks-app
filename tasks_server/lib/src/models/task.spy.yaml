@@ -1,0 +1,11 @@
+### Holds a note with a text written by the user.
+class: Task
+table: task
+fields:
+  ### The contents of the note.
+  text: String
+  priority: String
+  date: DateTime
+  isChecked: bool
+
+

@@ -1,0 +1,7 @@
+example:
+  - hello:
+tasks:
+  - createTask:
+  - editTask:
+  - deleteTask:
+  - getAllTasks:

@@ -1,0 +1,40 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "tasks_client",
+            "cwd": "tasks_client",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tasks_flutter",
+            "cwd": "tasks_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "tasks_flutter (profile mode)",
+            "cwd": "tasks_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "tasks_flutter (release mode)",
+            "cwd": "tasks_flutter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "tasks_server",
+            "cwd": "tasks_server",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
