@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 RUN dart pub get
-RUN dart compile exe bin/main.dart -o bin/main
+RUN dart compile exe bin/tasks_server.dart -o bin/main
 
 # If you update the busybox version, make sure the image is
 # compatible with the dart image.
@@ -26,4 +26,4 @@ EXPOSE 8080
 EXPOSE 8081
 EXPOSE 8082
 
-CMD app/bin/main --mode $runmode --server-id $serverid --logging $logging --role $role
+CMD app/bin/tasks_server --mode $runmode --server-id $serverid --logging $logging --role $role
