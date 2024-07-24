@@ -9,11 +9,10 @@ import 'package:tasks_flutter/app/app.router.dart';
 // the default port. You will need to modify this to connect to staging or
 // production servers.
 
-// use This if you are testing on an emulator
-// const String baseUrl = 'http://localhost:8080/';
+// const String baseUrl = 'http://$localhost:8080/';
 
-// use this if you are testing on physical device and change "ip-address" with your own device ip
-const String baseUrl = 'http://"ip-address":8080/';
+// use this if you are testing on physical device and change "ip-address" with your own device ip address
+const String baseUrl = 'http://192.168.100.10:8080/';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
