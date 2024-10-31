@@ -29,9 +29,9 @@ webServer:
 
 # This is the database setup for your server.
 database:
-  host: localhost
-  port: 8090
-  name: tasks
+  host: manhaj_backend_tasks_db
+  port: 5432
+  name: manhaj_backend
   user: postgres
 
 # This is the setup for Redis.
