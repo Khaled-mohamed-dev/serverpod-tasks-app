@@ -10,7 +10,7 @@ RUN dart pub get
 COPY . .
 # Ensure packages are still up-to-date if anything has changed
 RUN dart pub get --offline
-RUN dart compile exe bin/main.dart -o bin/main
+# RUN dart compile exe bin/main.dart -o bin/main
 
 ENV runmode=development
 ENV serverid=default
