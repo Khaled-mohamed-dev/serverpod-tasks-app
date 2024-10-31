@@ -19,9 +19,9 @@ ENV role=monolith
 
 # Build minimal serving image from AOT-compiled `/server` and required system
 # libraries and configuration files stored in `/runtime/` from the build stage.
-FROM scratch
-COPY --from=build /runtime/ /
-COPY --from=build /app/bin/server /app/bin/
+# FROM scratch
+# COPY --from=build /runtime/ /
+# COPY --from=build /app/bin/server /app/bin/
 
 # Start server.
 EXPOSE 8080
