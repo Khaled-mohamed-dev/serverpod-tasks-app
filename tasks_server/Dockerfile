@@ -29,4 +29,4 @@ EXPOSE 8081
 EXPOSE 8082
 
 # Command to run the application
-CMD dart bin/tasks_server.dart --apply-migrations && bin/main --mode $runmode --server-id $serverid --logging $logging --role $role
+CMD dart bin/tasks_server.dart --apply-migrations --mode $runmode --server-id $serverid --logging $logging --role $role
